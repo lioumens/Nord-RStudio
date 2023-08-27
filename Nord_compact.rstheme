@@ -2708,7 +2708,8 @@ input#rstudio_command_palette_search {
 }
 
 input#rstudio_command_palette_search {
-  padding: 10px 0;
+  /* padding: 10px 0; */
+  padding: 5px 0;
   width: 580px;
   border: none;
 }
@@ -2722,14 +2723,14 @@ input#rstudio_command_palette_search {
 }
 
 .rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel > div[aria-hidden="true"] + div {
-  height: 20px !important;
+  height: 25px !important;
   background: #3B4252;
 }
 
 .rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs table.rstheme_tabLayoutCenter {
   padding-left: 5px;
   padding-right: 5px;
-  height: 20px;
+  height: 24px;
 }
 
 .rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs .rstheme_tabLayoutCenter td {
@@ -2737,7 +2738,7 @@ input#rstudio_command_palette_search {
 }
 
 .rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs > div:empty {
-  height: 20px !important;
+  height: 24px !important;
 }
 
 .rstudio-themes-flat .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {
@@ -2757,12 +2758,11 @@ input#rstudio_command_palette_search {
 
 .rstudio-themes-flat .gwt-TabLayoutPanelTabs [id^="rstudio_workbench_"] .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter:hover tbody > tr > td:last-child > img {
   padding-top: 3px;
-  padding-bottom: 2px;
 }
 
 .rstudio-themes-flat .windowframe .gwt-TabLayoutPanel > div:last-child,
 .rstudio-themes-flat .gwt-TabLayoutPanel.rstudio_source_panel > div:last-child {
-  top: 18px !important;
+  top: 24px !important;
 }
 
 .windowframe > div:last-child > div > div > div[aria-hidden="true"] + div + div {
@@ -2802,6 +2802,11 @@ input#rstudio_command_palette_search {
   border-color: #464e61 !important;
 }
 
+/* descriptions under document type */
+.rstudio-themes-flat .dialogContent .GND-IWGDABB {
+  color: #ECEFF4;
+}
+
 .rstudio-themes-flat .dialogContent > table div,
 .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] table tbody td {
   border-color: #464e61;
@@ -2824,6 +2829,11 @@ input#rstudio_command_palette_search {
   color: #D8DEE9 !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+/* Code Highlighting Preview in Global Options*/
+.rstudio-themes-flat .gwt-DialogBox .dialogContent iframe.gwt-Frame {
+  border-style: none !important;
 }
 
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] > div,
@@ -3081,5 +3091,6 @@ input#rstudio_command_palette_search {
 
 .rstudio-themes-flat .rstudio-themes-dark-grey {
     color: rgb(216, 222, 233) !important;
+
     background: #434C5E !important;
 }
