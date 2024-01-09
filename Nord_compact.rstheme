@@ -3096,6 +3096,6 @@ input#rstudio_command_palette_search {
 }
 
 /* Text in Dialog for new Quarto Document */
-.GNVWDDMDBBB {
+.GNVWDDMDBBB, .GNVWDDMDCBB {
   color: #D8DEEA;
 }
