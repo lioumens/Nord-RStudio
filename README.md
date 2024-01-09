@@ -12,7 +12,7 @@ To install, download the folder, unzip, and open RStudio. From RStudio click Pre
 
 If you're comfortable installing from the console and have [Devtools](https://github.com/r-lib/devtools) installed then you can copy and run the following in your console:
 ```
-rstudioapi::addTheme("https://raw.githubusercontent.com/lusignan/nord-rstudio/master/Nord.rstheme", apply=TRUE, force=TRUE)
+rstudioapi::addTheme("https://raw.githubusercontent.com/lioumens/Nord-RStudio/master/Nord_compact.rstheme", apply=TRUE, force=TRUE)
 ```
 ## Acknowledgements
 * Theme by [Sven Greb](https://github.com/svengreb)
